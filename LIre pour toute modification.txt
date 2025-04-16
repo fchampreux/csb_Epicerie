@@ -1,0 +1,81 @@
+Chaque page a un ensembe de fichiers qui lui appartient.
+Elle a un view_quelquechose qui permet l'affichage de la page en elle meme.
+Elle a un controller_quelquechose qui lui permet de gerer la page ce qu'on veut afficher.
+
+J'ai nommé les pages d'un certaine maniere pour que vous ne vous perdiez pas 
+Le _quelquechose correspond aux pages 
+Par exemple view_alimentation correspond à ce qu'il se trouve dans la page Alimentation
+
+alimentation = Alimentation
+cf = Charcuterie & Fromages
+contact = Contact
+cosmetiques = Cosmétiques
+evenements = Évènements
+ls = Liqueurs & Spriritueux
+presentation = Présentation
+produitsdela = Produits de Là
+produitssales = Gamme Salée
+produitssucres = Gamme Sucrée
+
+
+Si vous voulez ajouter une image elles se trouvent dans le dossier src puis dans le dossier images puis dans le dossier qui correspond à la page
+
+
+Si vous voulez créer une toute nouvelle partie à n'importe quelle page vous allez devoir créer des boites pour ranger les elements 
+div pour commencer pour mettre des images et une autre boite pour les textes
+Cette autre boite s'appellera section qui contiendra une boite p
+
+Ca donnera 
+<div>
+    <img src="" class="" alt="">
+    <section>
+        <p>
+        </p>
+    </section>
+</div>
+
+ou si vous voulez que ce soit à droite
+<div>
+    <section>
+        <p class="m-droite">
+        </p>
+    </section>
+    <img src="" class="m-droite" alt="">
+</div>
+
+ou si vous ne voulez pas d'images
+<div>
+    <section>
+        <p>
+        </p>
+    </section>
+</div>
+
+
+Si vous voulez ecrire du texte ce sera dans la partie p de la boite section que l'on a crée precedemment
+Si vous voulez sautez une ligne ce sera avec la boite <br>
+
+
+Si vous voulez changer une image elles sont dans le dossier view puis dans le fichier view_quelquechose 
+
+Tout d'abord vous devrez aller tout en haut du document et ajouter une variable c'est un $, le nom que vous voulez, puis un =
+Par exemple $imageChat = souvent quand on nomme une variable on lui rajoute des majuscules si il y a  deux mot ou plus pour que ce soit plus lisible
+
+Ensuite vous devrez lui renseigner ou se trouve l'image donc souvent dans un dossier spécifique a la page en question c'est forcément entre ""
+Par exemple "./src/images/alimentation/Pain.jpg" dans ce cas on cherche l'image qui s'appelle Pain.jpg qui se trouve dans un dossier alimentation, lui meme se trouve dans un dossier images, lui meme se trouve dans un dossier src et le . veut dire qu'on part de la ou est on appelle cela la racine.
+
+Pour l'ajouter a la page internet ensuite faudra créer une sorte de boite ou on lui renseignera ses paramètres 
+
+Par exemple <img src="<?php echo $imageChat?>" class="Test" alt="">
+img veut dire que ce qu'on crée est une image
+src c'est l'endroit ou elle est
+class c'est pour lui ajouter une class dans l'image que l'on vient de créer on lui a donné la class Test
+alt ca sert souvent la page internet n'arrive pas à charger l'image elle affiche ce qu'il y a dans alt
+
+Allons un peu dans le detail dans src="<?php echo $imageChat?>"
+<php veut dire qu'on va faire du code en php (c'est un language de programmation)
+echo veut dire qu'on va ecrire ce qu'il y a dans le variable qu'on va citer prochainement
+$imageChat est le nom d'une variable qu'on aura défini en haut du document
+?> veut dire qu'on a fini d'ecrire en php
+
+Normalement on devrait mettre ./src/images/alimentation/Pain.jpg mais le probleme avec cette methode c'est que s'il y des centaines d'images dans notre site web on se perd facilement alors pour faciliter on renseigne les noms plutot que les liens cela nous permets de rechercher une image directement par le nom qu'on lui a donné tout en haut du document et pour chercher une image c'est plus simple car elles sont toutes en haut du document

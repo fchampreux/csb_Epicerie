@@ -9,7 +9,6 @@ $imageSales = "./src/images/header/sales.jpg";
 $imageIntimu = "./src/images/header/intimu.jpg";
 $imageProduitsLa = "./src/images/header/dela.jpg";
 $imageEvenements = "./src/images/header/agenda.jpg";
-$imageBouquet = "./src/images/header/bouquet.jpg";
 $imageContact = "./src/images/header/contact.jpg";
 
 ?>
@@ -39,7 +38,6 @@ $imageContact = "./src/images/header/contact.jpg";
         <input type="radio" name="slider" id="item-8">
         <input type="radio" name="slider" id="item-9" checked>
         <input type="radio" name="slider" id="item-10">
-        <input type="radio" name="slider" id="item-11">
         <div class="cards">
             <label class="card" for="item-1" id="song-1">
                 <img src="'.$imageShop.'" alt="song">
@@ -69,9 +67,6 @@ $imageContact = "./src/images/header/contact.jpg";
                 <img src="'.$imageEvenements.'" alt="song">
             </label>
             <label class="card" for="item-10" id="song-10">
-                <img src="'.$imageBouquet.'" alt="song">
-            </label>
-            <label class="card" for="item-11" id="song-11">
                 <img src="'.$imageContact.'" alt="song">
             </label>
         </div>
@@ -106,9 +101,6 @@ $imageContact = "./src/images/header/contact.jpg";
                         <div class="link"><a href="./controller_evenements.php">Évènements</a></div>
                     </label>
                     <label class="info">
-                        <div class="link"><a href="./controller_bouquet.php">Bouquet</a></div>
-                    </label>
-                    <label class="info">
                         <div class="link"><a href="./controller_contact.php">Nous Contacter</a></div>
                     </label>
                 </div>
@@ -125,7 +117,6 @@ $imageContact = "./src/images/header/contact.jpg";
             <span class="dot" onclick="currentSlide(8)"></span>
             <span class="dot" onclick="currentSlide(9)"></span>
             <span class="dot" onclick="currentSlide(10)"></span>
-            <span class="dot" onclick="currentSlide(11)"></span>
         </div>';
     }else{
         echo '
@@ -139,7 +130,6 @@ $imageContact = "./src/images/header/contact.jpg";
         <a href="./controller_cosmetiques.php">Cosmétiques</a>
         <a href="./controller_produitsdela.php">Produits de Là</a>
         <a href="./controller_evenements.php">Évènements</a>
-        <a href="./controller_bouquet.php">Bouquet</a>
         <a href="controller_contact.php">Nous Contacter</a>';
     }
     ?>

@@ -1,7 +1,8 @@
 <?php
 
 $imageIntimu = "./src/images/cosmetiques/INTIMU.jpg";
-$imageTest = "https://agence-communication.re/wp-content/uploads/2023/06/couleur-noire-signification-1.jpg";
+$imageSavon = "./src/images/cosmetiques/SAVONNERIE.jpg";
+$imageFruitMontagne = "./src/images/cosmetiques/FRUITS_DE_LA_MONTAGNE.jpg";
 
 ?>
 <main>
@@ -28,10 +29,10 @@ $imageTest = "https://agence-communication.re/wp-content/uploads/2023/06/couleur
             <p class="m-droite">Savons et produits d'hygiène artisanaux.<br>
             Que des très jolis produits à offrir ou à s'offrir.</p>
         </section>
-        <img src="<?php echo $imageTest?>" class="m-droite" alt="">
+        <img src="<?php echo $imageSavon?>" class="m-droite" alt="">
     </div>
     <div>
-        <img src="<?php echo $imageTest?>" alt="">
+        <img src="<?php echo $imageFruitMontagne?>" alt="">
         <section>
             <h3>Les Fruits De La Montagne Corse</h3>
             <p>Produits cosmétiques bio créés à partir de leur production de plantes médicinales et aromatiques.<br>

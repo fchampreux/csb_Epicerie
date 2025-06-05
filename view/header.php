@@ -7,6 +7,7 @@ $imageAlcool = "./src/images/header/vins.jpg";
 $imageSucres = "./src/images/header/sucres.jpg";
 $imageSales = "./src/images/header/sales.jpg";
 $imageIntimu = "./src/images/header/intimu.jpg";
+$imageSouvenirs = "https://agence-communication.re/wp-content/uploads/2023/06/couleur-noire-signification-1.jpg";
 $imageProduitsLa = "./src/images/header/dela.jpg";
 $imageEvenements = "./src/images/header/agenda.jpg";
 $imageContact = "./src/images/header/contact.jpg";
@@ -38,6 +39,7 @@ $imageContact = "./src/images/header/contact.jpg";
         <input type="radio" name="slider" id="item-8">
         <input type="radio" name="slider" id="item-9" checked>
         <input type="radio" name="slider" id="item-10">
+        <input type="radio" name="slider" id="item-11">
         <div class="cards">
             <label class="card" for="item-1" id="song-1">
                 <img src="'.$imageShop.'" alt="song">
@@ -61,12 +63,15 @@ $imageContact = "./src/images/header/contact.jpg";
                 <img src="'.$imageIntimu.'" alt="song">
             </label>
             <label class="card" for="item-8" id="song-8">
-                <img src="'.$imageProduitsLa.'" alt="song">
+                <img src="'.$imageSouvenirs.'" alt="song">
             </label>
             <label class="card" for="item-9" id="song-9">
-                <img src="'.$imageEvenements.'" alt="song">
+                <img src="'.$imageProduitsLa.'" alt="song">
             </label>
             <label class="card" for="item-10" id="song-10">
+                <img src="'.$imageEvenements.'" alt="song">
+            </label>
+            <label class="card" for="item-11" id="song-11">
                 <img src="'.$imageContact.'" alt="song">
             </label>
         </div>
@@ -95,6 +100,9 @@ $imageContact = "./src/images/header/contact.jpg";
                         <div class="link"><a href="./controller_cosmetiques.php">Cosmétiques</a></div>
                     </label>
                     <label class="info">
+                        <div class="link"><a href="./controller_souvenirs.php">Souvenirs</a></div>
+                    </label>
+                    <label class="info">
                         <div class="link"><a href="./controller_produitsdela.php">Produits de Là</a></div>
                     </label>
                     <label class="info">
@@ -117,6 +125,7 @@ $imageContact = "./src/images/header/contact.jpg";
             <span class="dot" onclick="currentSlide(8)"></span>
             <span class="dot" onclick="currentSlide(9)"></span>
             <span class="dot" onclick="currentSlide(10)"></span>
+            <span class="dot" onclick="currentSlide(11)"></span>
         </div>';
     }else{
         echo '
@@ -128,6 +137,7 @@ $imageContact = "./src/images/header/contact.jpg";
         <a href="./controller_produitssucres.php">Gamme Sucrée</a>
         <a href="./controller_produitssales.php">Gamme Salée</a>
         <a href="./controller_cosmetiques.php">Cosmétiques</a>
+        <a href="./controller_souvenirs.php">Souvenirs</a>
         <a href="./controller_produitsdela.php">Produits de Là</a>
         <a href="./controller_evenements.php">Évènements</a>
         <a href="controller_contact.php">Nous Contacter</a>';

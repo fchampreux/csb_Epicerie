@@ -1,6 +1,6 @@
 <?php
 
-$imagePain = "";
+$imagePain = "./src/images/alimentation/Pain.jpg";
 $imageSaleUn = "./src/images/alimentation/SALES.jpg";
 $imageSaleDeux = "./src/images/alimentation/SALES 2.jpg";
 $imageFruitsLégumes = "./src/images/alimentation/FRUITS & LEGUMES.jpg";
@@ -8,11 +8,11 @@ $imageFrais = "./src/images/alimentation/PRODUITS FRAIS.jpg";
 $imageDejeuner = "./src/images/alimentation/PETIT DEJ.jpg";
 $imageFriandises = "./src/images/alimentation/FRIANDISES.jpg";
 $imageSeche  = "./src/images/alimentation/EPICERIE SECHE.jpg";
-$imageAnimaux = "./src/images/alimentation/ANIMAUX.jpg";
+$imageSecheDeux  = "./src/images/alimentation/EPICERIE SECHE 2.jpg";
 $imageBoisson = "./src/images/alimentation/BOISSONS.jpg";
 $imageBoissonFraiche = "./src/images/alimentation/BOISSONS FRAICHES.jpg";
 $imageHygiene  = "./src/images/alimentation/DROGUERIE & HYGIENE.jpg";
-$imageTest = "https://agence-communication.re/wp-content/uploads/2023/06/couleur-noire-signification-1.jpg";
+$imageAnimaux = "./src/images/alimentation/ANIMAUX.jpg";
 
 ?>
 <main>
@@ -23,7 +23,7 @@ $imageTest = "https://agence-communication.re/wp-content/uploads/2023/06/couleur
         </section>
     </div>
     <div>
-        <img src="<?php echo $imageTest?>" class="taille15" alt="">
+        <img src="<?php echo $imagePain?>" class="taille15" alt="">
         <section>
             <p>Du pain et des viennoiseries tous les matins d'ouverture.<br>
             Livrés de la Boulangerie de Macinaggio (voir orthographe!)</p>
@@ -60,7 +60,7 @@ $imageTest = "https://agence-communication.re/wp-content/uploads/2023/06/couleur
             <p class="m-droite">Epicerie sèche</p>
         </section>
         <img src="<?php echo $imageSeche?>" class="m-droite taille15" alt="">
-        <img src="<?php echo $imageAnimaux?>" class="m-droite taille15" alt="">
+        <img src="<?php echo $imageSecheDeux?>" class="m-droite taille15" alt="">
     </div>
     <div>
         <img src="<?php echo $imageBoisson?>" class="taille15" alt="">
@@ -76,7 +76,7 @@ $imageTest = "https://agence-communication.re/wp-content/uploads/2023/06/couleur
         <img src="<?php echo $imageHygiene?>" class="m-droite" alt="">
     </div>
     <div>
-        <img src="<?php echo $imageTest?>" class="" alt="">
+        <img src="<?php echo $imageAnimaux?>" class="" alt="">
         <section>
             <p>Produits animaux</p>
         </section>

@@ -36,6 +36,7 @@ $imageContact = "./src/images/header/contact.jpg";
         <li><a href="./controller_produitssucres.php">Gamme Sucrée</a></li>
         <li><a href="./controller_produitssales.php">Gamme Salée</a></li>
         <li><a href="./controller_cosmetiques.php">Cosmétiques</a></li>
+        <li><a href="./controller_souvenirs.php">Souvenirs</a></li>
         <li><a href="./controller_produitsdela.php">Produits de Là</a></li>
         <li><a href="./controller_evenements.php">Évènements</a></li>
         <li><a href="./controller_contact.php">Nous Contacter</a></li>

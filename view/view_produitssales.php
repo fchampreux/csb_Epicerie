@@ -3,8 +3,10 @@
 $imageCanistrelli = "./src/images/sales/CANISTRELLI SALES.jpg";
 $imageEpices = "./src/images/sales/EPICES.jpg";
 $imageTapenades = "./src/images/sales/TAPENADES.jpg";
+$imageTerrines = "./src/images/sales/TERRINES.jpg";
+$imageHuile = "./src/images/sales/HUILES_DOLIVE.jpg";
+$imageVinaigre = "./src/images/sales/VINAIGRES.jpg";
 $imageFarine = "./src/images/sales/FARINE CHATAIGNE.jpg";
-$imageTest = "https://agence-communication.re/wp-content/uploads/2023/06/couleur-noire-signification-1.jpg";
 
 ?>
 <main>
@@ -40,10 +42,10 @@ $imageTest = "https://agence-communication.re/wp-content/uploads/2023/06/couleur
             ou vous mettront en appétit lors de vos repas.<br>
             Plusieurs déclinaisons : myrte, noisette, châtaigne...</p>
         </section>
-        <img src="<?php echo $imageTest?>" class="m-droite" alt="">
+        <img src="<?php echo $imageTerrines?>" class="m-droite" alt="">
     </div>
     <div>
-        <img src="<?php echo $imageTest?>" alt="">
+        <img src="<?php echo $imageHuile?>" alt="">
         <section>
             <h3>Huiles d'olives</h3>
             <p>Plusieurs productions artisanales : hautes qualités gustatives présentant<br>
@@ -56,7 +58,7 @@ $imageTest = "https://agence-communication.re/wp-content/uploads/2023/06/couleur
             <p class="m-droite">Une jolie gamme – clémentine, immortelle, figues – pour relever<br>
             vos plats et vos salades.</p>
         </section>
-        <img src="<?php echo $imageTest?>" class="m-droite" alt="">
+        <img src="<?php echo $imageVinaigre?>" class="m-droite" alt="">
     </div>
     <div>
         <img src="<?php echo $imageFarine?>" alt="">

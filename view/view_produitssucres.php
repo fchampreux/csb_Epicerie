@@ -1,10 +1,11 @@
 <?php
 
 $imageCanistrelli = "./src/images/sucres/CANISTRELLI.jpg";
+$imageMiel = "./src/images/sucres/MIELS.jpg";
 $imageConfitures = "./src/images/sucres/CONFITURES.jpg";
+$imageThes = "./src/images/sucres/THES__TISANES.jpg";
 $imagePrepa = "./src/images/sucres/PREPA GATEAUX.jpg";
 $imageCedrat = "./src/images/sucres/CEDRATS.jpg";
-$imageTest = "https://agence-communication.re/wp-content/uploads/2023/06/couleur-noire-signification-1.jpg";
 
 ?>
 <main>
@@ -29,7 +30,7 @@ $imageTest = "https://agence-communication.re/wp-content/uploads/2023/06/couleur
             <p class="m-droite">Des petites productions artisanales pour des miels de qualité<br>
             Châtaignier, Toutes fleurs, Arbouse...</p>
         </section>
-        <img src="<?php echo $imageTest?>" alt="">
+        <img src="<?php echo $imageMiel?>" alt="">
     </div>
     <div>
         <img src="<?php echo $imageConfitures?>" alt="">
@@ -44,7 +45,7 @@ $imageTest = "https://agence-communication.re/wp-content/uploads/2023/06/couleur
             <h3 class="m-droite">Thés & Tisanes</h3>
             <p class="m-droite">Une jolie gamme de produits déclinés en bio.</p>
         </section>
-        <img src="<?php echo $imageTest?>" alt="">
+        <img src="<?php echo $imageThes?>" alt="">
     </div>
     <div>
         <img src="<?php echo $imagePrepa?>" alt="">

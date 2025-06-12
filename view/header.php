@@ -32,7 +32,7 @@ $imageContact = "./src/images/header/contact.jpg";
     <div id="mySidenav" class="sidenav">
     <a id="closeBtn" href="#" class="close">×</a>
     <ul>
-        <li><a href="./controller_presentation.php">Présentation</a></li>
+        <li><a href="./index.php">Présentation</a></li>
         <li><a href="./controller_alimentation.php">Alimentation</a></li>
         <li><a href="./controller_cf.php">Charcuterie et Fromages</a></li>
         <li><a href="./controller_ls.php">Vins & Spriritueux</a></li>
@@ -104,7 +104,7 @@ $imageContact = "./src/images/header/contact.jpg";
             <div class="content">
                 <div class="info-container" id="test">
                     <label class="info">
-                        <div class="link"><a href="./controller_presentation.php">Présentation</a></div>
+                        <div class="link"><a href="./index.php">Présentation</a></div>
                     </label>
                     <label class="info">
                         <div class="link"><a href="./controller_alimentation.php">Alimentation</a></div>
@@ -158,7 +158,7 @@ $imageContact = "./src/images/header/contact.jpg";
     <div id="mySidenav" class="sidenav">
     <a id="closeBtn" href="#" class="close">×</a>
     <ul>
-        <li><a href="./controller_presentation.php">Présentation</a></li>
+        <li><a href="./index.php">Présentation</a></li>
         <li><a href="./controller_alimentation.php">Alimentation</a></li>
         <li><a href="./controller_cf.php">Charcuterie et Fromages</a></li>
         <li><a href="./controller_ls.php">Vins & Spriritueux</a></li>

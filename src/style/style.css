@@ -52,12 +52,6 @@ input[type=radio] {
     align-items: center;
 }
 
-.container-autre {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
 .cards {
     position: relative;
     width: 100%;

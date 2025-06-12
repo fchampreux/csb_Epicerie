@@ -1,12 +1,8 @@
-<html>
+<?php
+$ajout = "presentation";
+$title = "Présentation";
 
-<head>
-    <title>PHP Starter</title>
-</head>
-
-<body>
-    <h1>PHP Starter in CodeSandbox</h1>
-    <?php phpinfo(); ?>
-</body>
-
-</html>
+include './view/header.php';
+include './view/view_presentation.php';
+include './view/footer.php';
+?>

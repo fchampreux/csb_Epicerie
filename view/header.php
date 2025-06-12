@@ -25,6 +25,9 @@ $imageContact = "./src/images/header/contact.jpg";
     <title><?php echo $title?></title>
 </head>
 <body class="bg">
+    <?php
+    if ($title == "Présentation"){
+        echo '
     <!-- Burger Menu -->
     <div id="mySidenav" class="sidenav">
     <a id="closeBtn" href="#" class="close">×</a>
@@ -50,9 +53,6 @@ $imageContact = "./src/images/header/contact.jpg";
     </span>
     </a>
     <!-- Fin du Burger Menu -->
-    <?php
-    if ($title == "Présentation"){
-        echo '
     <header class="container">
         <input type="radio" name="slider" id="item-1">
         <input type="radio" name="slider" id="item-2">
@@ -154,18 +154,32 @@ $imageContact = "./src/images/header/contact.jpg";
         </div>';
     }else{
         echo '
-    <header class="container-autre">
-        <a href="./controller_presentation.php" onclick="headerToggle">Présentation</a>
-        <a href="./controller_alimentation.php">Alimentation</a>
-        <a href="./controller_cf.php">Charcuterie et Fromages</a>
-        <a href="./controller_ls.php">Vins & Spriritueux</a>
-        <a href="./controller_produitssucres.php">Gamme Sucrée</a>
-        <a href="./controller_produitssales.php">Gamme Salée</a>
-        <a href="./controller_cosmetiques.php">Cosmétiques</a>
-        <a href="./controller_souvenirs.php">Souvenirs</a>
-        <a href="./controller_produitsdela.php">Produits de Là</a>
-        <a href="./controller_evenements.php">Évènements</a>
-        <a href="controller_contact.php">Nous Contacter</a>';
+    <!-- Burger Menu -->
+    <div id="mySidenav" class="sidenav">
+    <a id="closeBtn" href="#" class="close">×</a>
+    <ul>
+        <li><a href="./controller_presentation.php">Présentation</a></li>
+        <li><a href="./controller_alimentation.php">Alimentation</a></li>
+        <li><a href="./controller_cf.php">Charcuterie et Fromages</a></li>
+        <li><a href="./controller_ls.php">Vins & Spriritueux</a></li>
+        <li><a href="./controller_produitssucres.php">Gamme Sucrée</a></li>
+        <li><a href="./controller_produitssales.php">Gamme Salée</a></li>
+        <li><a href="./controller_cosmetiques.php">Cosmétiques</a></li>
+        <li><a href="./controller_souvenirs.php">Souvenirs</a></li>
+        <li><a href="./controller_produitsdela.php">Produits de Là</a></li>
+        <li><a href="./controller_evenements.php">Évènements</a></li>
+        <li><a href="./controller_contact.php">Nous Contacter</a></li>
+    </ul>
+    </div>
+    <a href="#" id="openBtn">
+    <span class="burger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </span>
+    </a>
+    <!-- Fin du Burger Menu -->
+    <header>';
     }
     ?>
     </header>
